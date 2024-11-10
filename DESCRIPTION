@@ -1,0 +1,26 @@
+Package: CleanData
+Type: Package
+Title: Clean Lux Unemployment Data
+Version: 0.1.0
+Authors@R: person("Benard", "Omido", email = "omidobenard@gmail.com",
+  role = c("aut", "cre"))
+Description: This package allows users to easily get unemployent data for Luxembourg
+    from raw csv files
+License: GPL (>=3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+RemoteType: github
+Depends:
+    R (>= 4.1)
+Imports:
+    dplyr,
+    janitor,
+    stringr,
+    rlang
+Suggests: 
+    knitr,
+    reader,
+    rmarkdown,
+    testthat (>= 3.0.0),
+    tibble
